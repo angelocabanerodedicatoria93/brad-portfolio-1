@@ -26,9 +26,11 @@ npm install node-sass
 
 package.json, scripts
 
+```json
 "sass": "echo \"Hello from sass script\""
 
 "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+```
 
 ```bash
 npm run sass
