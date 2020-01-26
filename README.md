@@ -44,3 +44,41 @@ git commit -m 'initial workflow setup'
 ```
 
 fontawesome.com, copy link
+
+https://pages.github.com
+
+github, new repository, modern_portfolio, responsive portfolio website, create repository
+
+.gitignore
+node_modules
+
+```bash
+git init
+git add .
+git commit -m 'initial commit'
+git remote add origin git@github.com:bradtraversy/modern_portfolio.git
+git push -u origin master
+```
+
+```bash
+npm i gh-pages
+```
+
+```json
+"homepage": "https://bradtraversy.github.io/modern_portfolio"
+"scripts": {
+    "deploy": "gh-pages -d dist"
+}
+```
+
+```bash
+npm run deploy
+```
+
+https://bradtraversy.github.io/modern_portfolio/
+
+github, repo, settings, custom domain
+
+https://www.namecheap.com
+https://www.inmotionhosting.com
+codedemos.com
