@@ -28,7 +28,6 @@ package.json, scripts
 
 ```json
 "sass": "echo \"Hello from sass script\""
-
 "sass": "node-sass -w scss/ -o dist/css/ --recursive"
 ```
 
@@ -43,3 +42,5 @@ git init
 git add .
 git commit -m 'initial workflow setup'
 ```
+
+fontawesome.com, copy link
